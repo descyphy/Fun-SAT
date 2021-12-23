@@ -1,5 +1,5 @@
 # Fun-SAT
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/yinghuah/Fun-SAT/blob/main/LICENSE)
+[![License: MIT](https://github.com/descyphy/Fun-SAT/blob/9fa9c5aa5a1fca8924632e230028bf768b73f21b/LICENSE)
 
 This repo contains the source code for **Functional Corruptibility-Guided SAT-Based Attack on Sequential Logic Encryption**.
 
