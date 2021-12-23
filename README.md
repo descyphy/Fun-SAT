@@ -13,7 +13,7 @@ The tool has been successfully tested on `Ubuntu 18.04.5 LTS` and `CentOS Stream
 2. [`nuXmv`](https://nuxmv.fbk.eu/) (**Please put the absolute path of the tool executable to `src/nuxmv_config.txt`**)
 3. [`VCS`](https://www.synopsys.com/verification/simulation/vcs.html) (**Please put the absolute path of the tool executable
    to `src/vcs_config.txt`**)
-4. [`Modified version of the SAT attack tool`](https://github.com/descyphy/Modified_SAT_Attack_on_Logic_Locking) originally developed by Pramod Subramanyan (**After compiling this tool, please put the executable `sld` to `src/`**)
+4. [`Modified version of the SAT attack tool`](https://github.com/descyphy/Modified_SAT_Attack_on_Logic_Locking) originally developed by Pramod Subramanyan and Sayak Ray (**After compiling this tool, please put the executable `sld` to `src/`**)
 5. All the tool dependencies required by the above tools.
 
 Netlist Format:
