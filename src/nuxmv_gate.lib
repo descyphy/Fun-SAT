@@ -1,0 +1,67 @@
+MODULE inv_gate(a)
+	DEFINE
+		output:= !a;
+
+MODULE buff_gate(a)
+	DEFINE
+		output:= a;
+
+MODULE or_gate(a, b)
+	DEFINE
+		output:= a | b;
+
+MODULE nor_gate(a, b)
+	DEFINE
+		output:= !(a | b);
+
+MODULE and_gate(a, b)
+	DEFINE
+		output:= a & b;
+
+MODULE nand_gate(a, b)
+	DEFINE
+		output:= !(a & b);
+
+MODULE xor_gate(a, b)
+	DEFINE
+		output:= a xor b;
+
+MODULE xnor_gate(a, b)
+	DEFINE
+		output:= a xnor b;
+
+MODULE register_n(input)
+	VAR
+		last : boolean;
+		current : boolean;
+	ASSIGN
+		init(current) := FALSE;
+		init(last) := input;
+		next(current) := last;
+		next(last) := input;
+	DEFINE
+		output := current;
+
+MODULE register_p(input)
+	VAR
+		last : boolean;
+		current : boolean;
+	ASSIGN
+		init(current) := TRUE;
+		init(last) := input;
+		next(current) := last;
+		next(last) := input;
+	DEFINE
+		output := current;
+
+MODULE register(input, init_val)
+	VAR
+		last : boolean;
+		current : boolean;
+	ASSIGN
+		init(current) := init_val;
+		init(last) := input;
+		next(current) := last;
+		next(last) := input;
+	DEFINE
+		output := current;
