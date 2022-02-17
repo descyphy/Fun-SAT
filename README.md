@@ -103,6 +103,7 @@ Please cite our work if you find this codebase useful to you:
   title={{Fun-SAT}: Functional Corruptibility-Guided {SAT}-Based Attack on Sequential Logic Encryption},
   author={Hu, Yinghua and Zhang, Yuke and Yang, Kaixin and Chen, Dake and Beerel, Peter A and Nuzzo, Pierluigi},
   booktitle={International Symposium on Hardware Oriented Security and Trust (HOST)},
+  pages={281--291},
   year={2021},
   organization={IEEE}
 }
