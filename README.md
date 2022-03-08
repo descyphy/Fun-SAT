@@ -3,7 +3,7 @@
 
 This repo contains the source code for **Functional Corruptibility-Guided SAT-Based Attack on Sequential Logic Encryption**.
 
-For more information about the tool, please visit the [preprint](https://arxiv.org/abs/2108.04892) of our HOST'21 paper.
+For more information about the tool, please visit our [HOST'21 paper](https://doi.org/10.1109/HOST49136.2021.9702267).
 
 Tool Dependency:
 ------
